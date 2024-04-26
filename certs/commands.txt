@@ -1,4 +1,0 @@
-openssl req -newkey rsa:2048 -nodes -keyout dummy.key -x509 -days 365 -out dummy.crt
-openssl pkcs12 -export -out dummy.p12 -inkey dummy.key -in dummy.crt[password: dummy]
-
-openssl pkcs12 -in dummy.p12 -clcerts -nokeys -out ca.crt

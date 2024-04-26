@@ -112,5 +112,9 @@ Ensure to replace placeholder certificate and key files (`dummy.crt`, `dummy.key
 
 The dummy certificates provided in this repository are intended solely for facilitation purposes. We strongly recommend that you generate and use your own SSL/TLS certificates for secure communication with Keycloak.
 
+# Command.txt file
+
+This file serves as a reference for executing commands related to Docker Compose and certificate generation.
+
 
 
