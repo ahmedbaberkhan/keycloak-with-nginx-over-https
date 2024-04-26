@@ -27,8 +27,6 @@ services:
       - KC_HTTP_ENABLED=true
       - KC_HTTPS_CERTIFICATE_FILE=/etc/x509/https/dummy.crt
       - KC_HTTPS_CERTIFICATE_KEY_FILE=/etc/x509/https/dummy.key
-    expose:
-      - "8443"
     volumes:
       - ./certs:/etc/x509/https  
     command:
